@@ -1,0 +1,15 @@
+li {
+    list-style: none;
+    display: inline-block;
+	
+}
+
+ul {
+    text-align: right ;
+}
+body {
+    font-family: 'Dosis', sans-serif;
+    color: #0e0247;
+    font-size: 14px;
+    font-weight: 400;
+}
