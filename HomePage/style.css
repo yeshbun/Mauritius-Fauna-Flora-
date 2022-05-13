@@ -51,7 +51,7 @@ nav{
     text-align: center;
 }
 .logo img {
-    height: 5rem;
+    height: 4.5rem;
     width: 5rem;
 }
 
@@ -127,4 +127,26 @@ nav{
 
   footer{
     background-color: #075d2eb5;
+}
+  nav{
+    background-color: #075d2eb5;
+    padding: 0%;
+    text-align:top left;
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+  }
+  nav ul{
+    border-radius: 3px;
+    border: 3px;
+    box-sizing: content-box;
+}
+nav ul li{
+  text-align: justify;
+  padding: 35px;
+  font-size: 20px;
+  text-align-last: justify;
+}
+nav ul li a{
+  text-decoration-line: initial;
+  color:wheat;
 }
