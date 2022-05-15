@@ -7,359 +7,256 @@
     <title>Mauritius | Fauna & Flora</title>
     <link rel="stylesheet" href="HomePage/style.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="container">
+    <div class="page-container">
       <div class="row">
-        <header>
-          <nav>
-            <nav class="navbar navbar-light">
-              <div class="logo">
-                <img src="images/Logo/save-the-earth-and-wildlife-campaign-badges-free-vector.jpg" alt="Logo Image">
-              </div>
-              <ul>
-                <li>
-                  <a href="index.html">Home</a>
-                </li>
-                <li>
-                  <a href="ExtinctPage/extinct.html">Extinct</a>
-                </li>
-                <li>
-                  <a href="EndemicPage/endemic.html">Endemic</a>
-                </li>
-                <li>
-                  <a href="VunerablePage/vulnerable.html">Vulnerable</a>
-                </li>
-                <li>
-                  <a href="RarePage/rare.html">Rare</a>
-                </li>
-              </ul>
-            </nav>
-          </nav>
+        <header class="pr-0">
+          <div class="topnav" id="topnav">
+            <a href="index.html" class="active"><b>Mauritius Fauna & Flora</b></a>
+            <a href="ExtinctPage/extinct.html">Extinct</a>
+            <a href="EndemicPage/endemic.html">Endemic</a>
+            <a href="VunerablePage/vulnerable.html">Vulnerable</a>
+            <a href="RarePage/rare.html">Rare</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
         </header>
-        <video controls autoplay name="media">
-          <source src="images/mauritius-tourism-video.mp4" type="video/mp4" allow="autoplay">
-        </video>
       </div>
+
+      <div class="row">
+        <video controls muted loop name="media" style="padding:0; width:100%" autoplay="autoplay">
+          <source src="images/mauritius-tourism-video.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+          <h6 style="font-size: 8px;">©Mauritius Tourism Authority</h6>
+        </div>
+        </div>
+
       <div class="row">
         <div id="container">
-          <div class="history">
-            <div class="col-6">
-              <!--<img src="images/mauritius-outline.png" class="mru-image" alt="mru-outline" height: > -->
+          <div class="history p-5">
+            <div class="col col-lg-2">
+              <img src="images/mauritius-outline.png" class="mru-image" alt="mru-outline" height="180px">
             </div>
-            <div class="col-6">
-              <h4>A little backstory</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo dolore error doloremque molestiae ipsam a tempore. Dignissimos cupiditate deserunt repudiandae non, quod laboriosam natus, eos expedita culpa, placeat quam!</p>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid">
-          <section>
-            <div class="row">
-              <div class="container">
-                <div class="container__inside">
-                  <h2 class="h2 -lora u-content--centered">Key figures</h2>
-                  <div class="stats">
-                    <div class="stat__wrapper">
-                      <div class="stat__item">
-                        <div class="stat__stat">
-                          <span class="stat__number" data-target="1">1</span>
-                          <span class="stat__unit"></span>
-                        </div>
-                        <h5 class="stat__text">billion tonnes of carbon locked up in our projects</h5>
-                      </div>
-                    </div>
-                    <div class="stat__wrapper">
-                      <div class="stat__item">
-                        <div class="stat__stat">
-                          <span class="stat__number" data-target="50">50</span>
-                          <span class="stat__unit"></span>
-                        </div>
-                        <h5 class="stat__text">million hectares of habitat protected worldwide</h5>
-                      </div>
-                    </div>
-                    <div class="stat__wrapper">
-                      <div class="stat__item">
-                        <div class="stat__stat">
-                          <span class="stat__number" data-target="94">94</span>
-                          <span class="stat__unit">%</span>
-                        </div>
-                        <h5 class="stat__text">of charitable donations go directly to conservation efforts</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row row-cols-3">
-                <div class="col">
-            <div class="card" style="width: 18rem; height:30rem;">
-                <img src="images/Logo/mauritius-wildlife-organisation.png" class="card-img-top" alt="mwf-logo">
-                <div class="card-body">
-                  <h5 class="card-title">Mauritian Wildlife Organisation</h5>
-                  <p class="card-text">The largest NGO in Mauritius to be exclusively concerned with the conservation and preservation of the nation's endangered plant and animal species.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Established since 1984</li>
-                </ul>
-                <div class="card-body">
-                  <a href="https://www.mauritian-wildlife.org/" class="btn btn-outline-info" role="button" data-bs-toggle="button">Visit</a>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem;">
-                <img src="images/Logo/ebony-forest-logo.jpg" class="card-img-top" alt="ebony-forest-logo">
-                <div class="card-body">
-                  <h5 class="card-title">Ebony Forest</h5>
-                  <p class="card-text">Ebony Forest Reserve is a paradise for the island's remaining threatened endemic flora and fauna.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Established since 2006</li>
-
-                </ul>
-                <div class="card-body">
-                  <a href="https://www.ebonyforest.com/" class="btn btn-outline-info" role="button" data-bs-toggle="button">Visit</a>
-
-                </div>
-              </div>
-              <div class="card" style="width: 18rem;">
-                <img src="images/Logo/logo-ecosud-round.png" class="card-img-top" alt="ecosud-logo">
-                <div class="card-body">
-                  <h5 class="card-title">Eco-Sud</h5>
-                  <p class="card-text">Eco-Sud is an NGO working to protect the environment and biodiversity of Mauritius Island. </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Established since 2009</li>
-
-                </ul>
-                <div class="card-body">
-                  <a href="https://ecosud.mu" class="btn btn-outline-info" role="button" data-bs-toggle="button">Visit</a>
-                </div>
-
-                </div>
-              </div>
-              <div class="row row-cols-3">
-                <div class="col">
-              <div class="card" style="width: 18rem;">
-                <img src="images/Logo/mmcs.png" class="card-img-top" alt="mmcs-logo">
-                <div class="card-body">
-                  <h5 class="card-title">Mauritius Marine Conservation Society</h5>
-                  <p class="card-text">MMCS has developed various programmes aimed at preserving the ecosystem, for instance: attributing greater value to the submarine archaeology,keeping records of marine mammals driven ashore, identifying and protecting cetaceans as well as creating educational games based on the marine environment.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Established since 1990</li>
-
-                </ul>
-                <div class="card-body">
-                  <a href="http://www.mmcs-ngo.org" class="btn btn-outline-info" role="button" data-bs-toggle="button">Visit</a>
-
-                </div>
-              </div>
-              <div class="card" style="width: 18rem; height:30rem;">
-                <img src="images/Logo/forena.png" class="card-img-top" alt="forena-logo">
-                <div class="card-body">
-                  <h5 class="card-title">FORENA</h5>
-                  <p class="card-text">FORENA aims to uplift biodiversity, raise environmental awareness, mitigate climate change and protect vulnerable groups in Mauritius.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Established since 2008</li>
-                </ul>
-                <div class="card-body">
-                  <a href="https://www.forena.mu/" class="btn btn-outline-info" role="button" data-bs-toggle="button">Visit</a>
-                </div>
-                <div class="card" style="width: 18rem; height:30rem;">
-                  <img src="images/Logo/reef-logo.png" class="card-img-top" alt="reefconservation-logo">
-                  <div class="card-body">
-                    <h5 class="card-title">Reef Conservation</h5>
-                    <p class="card-text">Reef Conservation Mauritius is a non-profit organization dedicated to the conservation and the restoration of the costal and marine environment of Mauritius.</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Established since 2004</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="https://www.reefconservation.mu/" class="btn btn-outline-info" role="button" data-bs-toggle="button">Visit</a>
-                  </div>
-                  </div>
-                </div>
-                <div class="row">
-                <h5 class="mt-2">Together, we can all make a difference</h5>
-              </div>
-            </div>
-
-
-            
-            <!-- Modal -->
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    ...
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Understood</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-            <div class="container">
-              <div class="row">
-                <div class="col">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Deforestation
-              </button>
-               <!-- Modal -->
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Deforestation on Paradise Island</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Before Mauritius was colonised around 400 years ago, 90 % of its landmass was covered by forest. The Europeans, starting with the Dutch, cleared the land for timber and plantations.
-          After independence in 1968, more forest was cut down to expand sugar-cane cultivation, Mauritius’ main cash crop. Today, only around two percent of the native forest is left.          
-          All in all, 17.2 % of the landmass is forested, but this is mostly invaded forest with exotic species. And the unfortunate trend is that the forest area is decreasing by an annual 0.5 %.>
-        </div>
-      </div>
-    </div>
-  </div>
-                </div>
-                <div class="col">
-                  Latest irreversible events 
-                </div>
-                <div class="col">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Wakashio
-              </button>
-               <!-- Modal -->
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">A spill with long lasting effects</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          In July 2020, About 1,000 tonnes of fuel oil from the Japanese-owned MV Wakashio leaked into the ocean, causing Mauritius' worst ecological disaster. Environmentalists agree that it was the worst oil spill off Mauritius' coast.
-          While thousands of volunteers spent days scooping up the oil, and trying to contain its spread, it damaged about 300m (1,000ft) of coral reef and killed marine animals.
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
-                </div>
-              </div>
-            </div>
-
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-          </body>
-          <!-- <div class="container text-center my-3"> 
-            <h2 class="font-weight-light">Find out more about our local NGOs</h2>
-            <div class="row mx-auto my-auto">
-              <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
-                <div class="carousel-inner w-100" role="listbox">
-                  <div class="carousel-item active">
-                    <div class="col-md-4">
-                      <div class="card card-body">
-                        <img class="img-fluid" src="images/Logo/mauritius-wildlife-organisation.png">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="col-md-4">
-                      <div class="card card-body">
-                        <img class="img-fluid" src="images/Logo/mauritius-wildlife-organisation.png">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="col-md-4">
-                      <div class="card card-body">
-                        <img class="img-fluid" src="images/Logo/mauritius-wildlife-organisation.png">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="col-md-4">
-                      <div class="card card-body">
-                        <img class="img-fluid" src="images/Logo/mauritius-wildlife-organisation.png">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="col-md-4">
-                      <div class="card card-body">
-                        <img class="img-fluid" src="images/Logo/mauritius-wildlife-organisation.png">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="col-md-4">
-                      <div class="card card-body">
-                        <img class="img-fluid" src="images/Logo/mauritius-wildlife-organisation.png">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <a class="carousel-control-prev w-auto" href="Carousel" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next w-auto" href="Carousel" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-
-          <div class="row"></div>
-          <div id="def-modal" class="modal" role="dialog" tabindex="-1">
-            <div class="model-inner">
-              <div class="modal-header">
-                <h3>Deforestation</h3>
-                <button class="modal-close" data-id="demo-modal" aria-label="Close"> &times; </button>
-              </div>
-              <p> Natus earum velit ab nobis eos. Sed et exercitationem voluptatum omnis dolor voluptates. Velit ut ipsam sunt ipsam nostrum. Maiores officia accusamus qui sapiente. Dolor qui vel placeat dolor nesciunt quo dolor dolores. Quo accusamus hic atque nisi minima. </p>
+            <div class="col-md-auto">
+              <h4 style="font-size: 30px;"><b>A little backstory</b></h4>
+              <p>The wildlife of Mauritius consists of its flora and fauna. Due to its isolation, it has a relatively low diversity of wildlife; however, a high proportion of these are endemic species occurring nowhere else in the world. Many of these are now threatened with extinction because of human activities including habitat destruction and the introduction of non-native species since the 17th century.</p>
             </div>
           </div>
-          <button class="modal-open" data-id="demo-modal">Display Modal</button>
-          </main>
-          <div class="row"></div> -->
-          
-          <footer>
-            <div class="footer_inner clearfix">
-              <div class="footer_top_holder">
-                <div style="height: 3px" class="footer_top_border in_grid">
-                  <div class="footer_top">
-                    <div class="container">
-                      <a target="_blank" href="https://www.booked.net/weather/brooklyn-322467">
-                        <img src="https://w.bookcdn.com/weather/picture/32_322467_1_1_34495e_250_2c3e50_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=2&domid=w209&anc_id=37327" alt="booked.net" />
-                      </a>
-                      <div class="container_inner">
-                        <div class="four_columns clearfix">
-                          <div class="column1 footer_col1">
-                            <div class="column_inner">
-                              <h4>Join us on this journey to save our wildlife</h4>
+        </div>
+      </div>
+
+      <div class="row">
+            <div class="col-6 p-5">
+                <h3 class="mb-3">Our local NGOs</h3>
+            </div>
+            <div class="col-6 text-right p-5">
+              <a class="btn mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                <i class="fa fa-arrow-left"></i>
+              </a>
+              <a class="btn mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-12">
+                <div id="carouselExampleIndicators2" class="carousel slide pointer-event" data-ride="carousel">
+
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100">
+                                    <img src="images/Logo/mauritius-wildlife-organisation.png" class="card-img-top" alt="mwf-logo">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Mauritius Wildlife Foundation</h4>
+                                        <p class="card-text">The largest NGO in Mauritius to be exclusively concerned with the conservation and preservation of the nation's endangered plant and animal species.</p>
+                                    </div>
+                                        <ul class="list-group list-group-flush">
+                                          <li class="list-group-item">Established since 1984</li>
+                                        </ul>
+                                    <div class="card-body" style="max-height:70px">
+                                      <a href="https://www.mauritian-wildlife.org/" target="_blank" class="btn btn-outline-info">Visit</a>
+                                    </div>
+                                 </div>
                             </div>
-                            <button id="donate-now" class="btn btn-success" type="submit">Donate Now</button>
-                          </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100">
+                                  <img src="images/Logo/ebony-forest-logo.jpg.png" class="card-img-top" alt="ebony-forest-logo">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Ebony Forest</h5>
+                                    <p class="card-text">Ebony Forest Reserve is a paradise for the island's remaining threatened endemic flora and fauna. Their team is helping reverse the impacts of habitat destruction and invasive species.</p>
+                                  </div>
+                                
+                                  <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Established since 2006</li>
+                    
+                                  </ul>
+                                  <div class="card-body" style="max-height:70px">
+                                    <a href="https://www.ebonyforest.com/" class="btn btn-outline-info" role="button" data-bs-toggle="button">Visit</a>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                              <div class="card h-100 ">
+                                <img src="images/Logo/logo-ecosud-round.png" class="card-img-top" alt="ecosud-logo">
+                                <div class="card-body">
+                                  <h5 class="card-title">Eco-Sud</h5>
+                                  <p class="card-text">Eco-Sud is an NGO working to protect the environment and biodiversity of Mauritius Island. </p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">Established since 2009</li>
+
+                                </ul>
+                                <div class="card-body" style="max-height:70px">
+                                  <a href="https://ecosud.mu" target="_blank" class="btn btn-outline-info">Visit</a>
+                                    </div>
+                               </div>
+                            </div>
                         </div>
                       </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                              <div class="card h-100">
+                                <img src="images/Logo/mmcs.png" class="card-img-top" alt="mmcs-logo">
+                                <div class="card-body">
+                                  <h5 class="card-title">Mauritius Marine Conservation Society</h5>
+                                  <p class="card-text">MMCS has developed various programmes aimed at preserving the ecosystem, for instance: attributing greater value to the submarine archaeology,keeping records of marine mammals driven ashore, identifying and protecting cetaceans as well as creating educational games based on the marine environment.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">Established since 1990</li>
+                                </ul>
+                                <div class="card-body" style="max-height:70px">
+                                  <a href="http://www.mmcs-ngo.org" target="_blank" class="btn btn-outline-info">Visit</a>
+                                </div>
+                           </div>
+                        </div>
+
+                            <div class="col-md-4 mb-3">
+                              <div class="card h-100">
+                                <img src="images/Logo/forena.png" class="card-img-top" alt="forena-logo">
+                                <div class="card-body">
+                                  <h5 class="card-title">FORENA</h5>
+                                  <p class="card-text">FORENA aims to uplift biodiversity, raise environmental awareness, mitigate climate change and protect vulnerable groups in Mauritius.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">Established since 2008</li>
+                                </ul>
+                                <div class="card-body" style="max-height:70px">
+                                  <a href="https://www.forena.mu/" target="_blank" class="btn btn-outline-info">Visit</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                              <div class="card h-100">
+                                <img src="images/Logo/reef-logo.png" class="card-img-top" alt="reefconservation-logo">
+                                <div class="card-body">
+                                  <h5 class="card-title">Reef Conservation</h5>
+                                  <p class="card-text">Reef Conservation Mauritius is a non-profit organization dedicated to the conservation and the restoration of the costal and marine environment of Mauritius.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">Established since 2004</li>
+                                </ul>
+                                <div class="card-body" style="max-height:70px">
+                                  <a href="https://www.reefconservation.mu/"target="_blank" class="btn btn-outline-info">Visit</a>
+                                      </div>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                        </div>
                     </div>
                   </div>
+            </div>
+    </div>
+
+      <div class="row">
+        <div class="col">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#deforestationModal">
+              <img src="images/Eau-Bleue-Mauritius-Waterfall-2-top-view.jpg" alt="eaubleu-picture" width="100%" style="border-radius:50%">
+          </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="deforestationModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="deforestationModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="deforestationModalLabel">Deforestation on Paradise Island</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <img src="images/deforestation.jpg" alt="deforestation-picture" width="100%">
+                Before Mauritius was colonised around 400 years ago, 90 % of its landmass was covered by forest. The Europeans, starting with the Dutch, cleared the land for timber and plantations.
+                <br><br>
+                After independence in 1968, more forest was cut down to expand sugar-cane cultivation, Mauritius’ main cash crop. Today, only around two percent of the native forest is left.
+                All in all, 17.2 % of the landmass is forested, but this is mostly invaded forest with exotic species.
+                <br><br>
+                The unfortunate trend is that the forest area is decreasing by an annual 0.5 %.
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+          <h4>Latest irreversible events</h4>
+        </div>
+        <div class="col">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#wakashioModal">
+              <img src="images/Ile-aux-Aigrettes-nature-reserve-boat-tours.jpg" alt="IAA-picture" width="100%" style="border-radius:50%">
+        </button>
+          <!-- Modal -->
+          <div class="modal fade" id="wakashioModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="wakashioModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="wakashioModalLabel">A spill with long lasting effects</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/Mauritius_Oilspill_MV-Wakashio-800x445.jpg" alt="wakashio-picture" width="100%">
+                  In July 2020, About 1,000 tonnes of fuel oil from the Japanese-owned MV Wakashio leaked into the ocean, causing Mauritius' worst ecological disaster. Environmentalists agree that it was the worst oil spill off Mauritius' coast.
+                  <br>
+                  While thousands of volunteers spent days scooping up the oil, and trying to contain its spread, it damaged about 300m (1,000ft) of coral reef and killed marine animals.
+                </div>
                 </div>
               </div>
             </div>
         </div>
       </div>
+
+      <div class="Footer m-0">
+      <footer class="text-center text-white" style="background-color: #abaa91;">
+        <div class="container p-4 pb-0">
+            <!-- <div class="counter" data-target="300000">1000</div>
+            <div class="counter" data-target="200000">0</div>
+            <section class="">-->
+                <p class="d-flex justify-content-center align-items-center">
+                    <span class="me-3">Join the Mauritian Wildlife Foundation on this journey to save our wildlife</span>
+                    <a href="https://www.mauritian-wildlife.org/donate" target="_blank" class="btn btn-success">Donate Now</a>
+                </p>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color:black; font-size: 8px;">
+          © Copyright: Kestrel Team
+        </div>
       </footer>
+    </div>
+
       <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"><div class="carousel-inner"><div class="carousel-item active"><img src="images/Logo/mauritius-wildlife-organisation.png" class="d-block w-100" alt="..."></div><div class="carousel-item"><img src="images/Logo/mauritius-wildlife-organisation.png" class="d-block w-100" alt="..."></div><div class="carousel-item"><img src="images/Logo/mauritius-wildlife-organisation.png" class="d-block w-100" alt="..."></div></div><button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button></div>-->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="Homepage/script.js" charset="utf-8"></script>
+
   </body>
 </html>
