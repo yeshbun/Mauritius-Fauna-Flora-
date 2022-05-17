@@ -112,3 +112,18 @@ body {
 .content h4 {
   margin: 5px 0;
 }
+
+.col-md-4 {
+
+  transform-origin: 50% 65%;
+  transition: transform 2s, filter 3s ease-in-out;
+}
+
+.col-md-4:hover {
+  transform: scale(1.05);
+}
+
+p {
+  display: block;
+  margin: 30px;
+}
